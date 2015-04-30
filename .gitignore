@@ -1,17 +1,7 @@
-# Ignore Play! working directory #
-bin/
-/db
-.eclipse
-/lib/
-/logs/
-/modules
-/project/project
-/project/target
-/target
-tmp/
-test-result
-server.pid
-*.iml
-*.eml
-/dist/
-.cache
+logs
+project/project
+project/target
+#target #commented for deploying to openshift
+tmp
+.history
+dist
